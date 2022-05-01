@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background:linear-gradient(200deg, rgb(107, 32, 71) ,rgb(129, 56, 127), rgb(183, 154, 184));
+    
+}
+nav{
+    
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+nav al{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+nav al li{
+    list-style: none;
+    padding: 0 23px; 
+    display: inline;  
+    font-size: larger;
+}
+nav al li a{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regalar', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: none;  
+}
+
+nav al li:hover{  
+    font-weight:bolder;
+}
+.img
+{
+   margin:15px 20px;
+   display: inline-block;
+
+}
+.style1
+{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    margin: 0 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.bgi{
+    background-image: url('img/bgi.jpg');
+    background: cover no-repeat fixed center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; 
+    position: relative;
+}
+footer
+{
+    display: flex;
+    padding-top: 20px;
+    align-content: center;
+    justify-content: center;
+    background:linear-gradient(200deg, rgb(73, 7, 71) ,rgb(99, 46, 90), rgb(173, 144, 173));
+    font-family: 'Lucida Sans', 'Lucida Sans Regalar', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    height: 8vh;
+    color: rgb(0, 0, 0);
+    /* position: sticky; */
+}
+.container
+{
+    margin: 37px auto;
+}
+.iconns
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content:center; 
+    overflow:hidden;
+}
+.space
+{
+    margin: 50px 0;
+}
+.i1{
+    border-radius: 40px;
+    
+    
+}
+.inner-bannerspace{
+    padding-top: 150px;
+   
+}
+.iconn-items
+{
+    width: 280px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 12px;
+    border: 5px solid rgb(135, 19, 174);
+    border-radius: 40px;
+    background-color: rgba(211, 74, 154, 0.185); 
+    box-shadow:10px 5px 20px 0 rgb(24, 23, 23);
+    
+  
+
+}
+.iconn-items:hover
+{
+    
+    transform: scale(1.05);
+
+}
+.lines h3 p{
+    height: 20vh;
+   text-align: center;
+}
+
+.btn
+{
+    margin:8px 0;
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background:linear-gradient(200deg, rgb(0, 208, 255) ,rgb(64, 106, 203), rgb(19, 45, 215));
+    border: 2px solid rgb(0, 0, 0);
+    width:180px;
+}
+.btn:hover
+{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background: white;
+    
+}
+.btn1
+{
+    margin:8px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    background:rgb(44, 224, 115);
+    border: 3px solid rgb(0, 0, 0);
+    width:100px;
+}
+
+.btn1:hover
+{
+    cursor: pointer;
+    color: rgb(44, 224, 155);
+    background: rgb(0, 0, 0);
+    
+}
+
+.btn2
+{
+    margin:8px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    background:rgb(65, 176, 209);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    width:100px;
+}
+.btn2:hover{
+    cursor: pointer;
+    color: rgb(71, 176, 195);
+    background: rgb(0, 0, 0);
+}
+
+h1
+{
+    font-family: 'The Nautigal', cursive;
+    font-size: 4em;
+    font-weight:bolder;
+   
+} 
+.f1
+{
+    font-size: 18px;
+}
+@media screen and (max-width :678px) {
+    nav
+    {
+       
+        flex-wrap:wrap;   
+        height: 150px; 
+    }
+      
+}
+@media  screen and (max-width :398px) {
+    nav al{
+        flex-wrap: wrap;    
+    }
+    nav
+    {
+        height: 245px;
+    }
+    
+}
